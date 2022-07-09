@@ -47,5 +47,5 @@ def test_register_user():
     assert data["name"] == payload["name"]
 
 
-def test_exmp ():
-    assert 1==1
+# def test_exmp ():
+#     assert 1==1
