@@ -29,7 +29,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="275cc2c6-ba5c-4f53-8714-a3161cce358e">
-      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[select * from auth_user ;]]></console>
+      <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[update auth_user set first_name='hamza'
+where id =3;
+select * from auth_user ;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
