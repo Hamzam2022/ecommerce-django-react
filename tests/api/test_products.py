@@ -27,11 +27,11 @@ def test_product_creation():
 
 
 # Api test  - Integration testing
-# def test_api_product_creation():
-#     client = APIClient()
-#     response = client.post("/api/products/create/")
-#     # data = response.data
-#     assert response.status_code == 200
+def test_api_product_creation():
+    client = APIClient()
+    response = client.post("/api/products/create/")
+    # data = response.data
+    assert response.status_code == 200
 
 # def test_exmp():
 #     assert 1 == 1
