@@ -11,4 +11,5 @@ urlpatterns = [
     path('<str:pk>/',views.getUserById,name="get_user"),
     path('update/<str:pk>/',views.updateUser,name="updateUser"),
     path('delete/<str:pk>/',views.deleteUser,name="deleteUser"),
+
 ]

@@ -31,7 +31,7 @@
     <connection id="275cc2c6-ba5c-4f53-8714-a3161cce358e">
       <console name="Connection" type="STANDARD" schema="main" session="Main"><![CDATA[update auth_user set first_name='hamza'
 where id =3;
-select * from auth_user ;]]></console>
+select * from base_review ;]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -41,7 +41,13 @@ select * from auth_user ;]]></console>
     <connection id="275cc2c6-ba5c-4f53-8714-a3161cce358e" />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="275cc2c6-ba5c-4f53-8714-a3161cce358e" dataset="main.auth_user" active-filter-id="" />
+    <filter-actions connection-id="275cc2c6-ba5c-4f53-8714-a3161cce358e" dataset="main.auth_user" active-filter-id="063c0419-9c0b-4168-bbdb-2394222f5547">
+      <filter id="063c0419-9c0b-4168-bbdb-2394222f5547" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
+        <condition column="id" operator="=" value="" active="true" />
+      </filter>
+    </filter-actions>
+    <filter-actions connection-id="275cc2c6-ba5c-4f53-8714-a3161cce358e" dataset="main.auth_group" active-filter-id="" />
+    <filter-actions connection-id="275cc2c6-ba5c-4f53-8714-a3161cce358e" dataset="main.auth_group_permissions" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
