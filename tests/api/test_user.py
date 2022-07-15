@@ -121,7 +121,7 @@ def test_get_profile():
     client.post("/api/users/register/", payload)
     client.post("/api/users/login/", dict(username="test111@test.com", password="super-secret"))
     response = client.get("http://localhost:7000/#/profile")
-    assert response.status_code == 400
+    assert response.status_code == 200
     # data = response.data
     # assert data["name"] == "testing123"
 
